@@ -54,8 +54,8 @@ def login():
            print("\nWrong Password")
  except KeyError:
      
-     A=input("\nEmail Id Not registered, if you what to register press Y else N  :")
-     if A=="Y":
+     A=input("\nEmail Id Not registered, if you what to register press Y else N  :").lower()
+     if A=="y":
          Registration()
 #################################################################
 def forget_password():
