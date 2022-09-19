@@ -1,5 +1,5 @@
 #Registration and Login system using Python, file handling
-import csv
+
 def Email_Check(Email):
  special_char="!#$%^&*()-+?_=,<>/"
  num=["1","2","3","4","5","6","7","8","9","0"]
